@@ -1,0 +1,1 @@
+sed -i.bak 's/^SSLProtocol.*/SSLProtocol all -SSLv3 -SSLv2/' /etc/httpd/conf.d/ssl.conf
